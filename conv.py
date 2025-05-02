@@ -5,6 +5,8 @@ POUNDS_TO_DOLLARS = 1.31
 def convertor(v,f,t):  
     if f == "p" and t == "e":
         outval = v * POUNDS_TO_EUROS
+        if x == 1:
+            pass
     elif f == "p" and t == "d":
         outval = v * POUNDS_TO_DOLLARS
     else:

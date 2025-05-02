@@ -8,10 +8,15 @@ def high_low():
         if guess == rand:
             print("congrats")
             playing = False
+            break
+        print("LOWER" if guess > rand else "HIGHER")
+        '''
         elif guess > rand:
             print("LOWER") 
         else:
             print("HIGHER")
+        '''
+
 
 play = "y"
 while play == "y":

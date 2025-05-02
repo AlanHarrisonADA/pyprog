@@ -1,7 +1,7 @@
 names = []
-names.append(input("name1"))
-names.append(input("name2"))
-names.append(input("name3"))
+for i in range(3):
+    names.append(input("name? "))
+
 
 more = True
 while more:

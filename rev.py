@@ -1,7 +1,6 @@
 def back(mylist):
-    mylist.reverse()
-    return mylist
+    newlist = list(reversed(mylist)) 
+    return newlist
 
 nums = [1,2,3]
-back(nums)
-print(nums)
+print(back(nums))
