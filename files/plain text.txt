@@ -1,0 +1,7 @@
+Here is a plain text file.
+It has many lines.
+
+Some lines might be blank.
+(c) 2016
+
+
