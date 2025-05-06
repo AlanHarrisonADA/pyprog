@@ -7,8 +7,7 @@ with open("users.csv","r") as file:
 
 print(users)
 
-user = input("username? ")
-pwd  = input("password? ")
+user = input("username? ")pwd  = input("password? ")
 if [user,pwd] in users:
     print("correct!")
 else:
