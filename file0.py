@@ -1,0 +1,6 @@
+file = open("file1.txt","r")  
+data = file.read()
+print("==============================")
+print(data)
+print("==============================")
+print()
